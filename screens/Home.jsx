@@ -122,7 +122,7 @@ export default function Home({ navigation }) {
     } else {
       alert("This is not a physical device.");
     }
-
+    console.log(token);
     return token;
   };
 
